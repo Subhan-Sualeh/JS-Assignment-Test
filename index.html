@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bgColor">
+     <h1 id="textColor">   JS Assignment  </h1>
+     <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est possimus quasi, nemo pariatur quae laudantium? Deleniti, inventore eveniet! Nostrum totam necessitatibus beatae, dolores distinctio autem!</p>
+         <button onclick="change()">Change Background Color</button>
+         <button onclick="fntColor()">Change Heading Color</button>
+    </div>
+    <div class="IMGdiv">
+        
+        <img src="./red-modified-toyota-supra-mk4-wallpaper-2560x1080_14.jpg" width="600" id="image">
+        <br><br>
+        <button onclick="IMGhandle('show')">Show Pic</button>
+        <button onclick="IMGhandle('hide')">Hide Pic</button>
+        <button onclick="IMGhandle('large')">Large Pic</button>
+        <button onclick="IMGhandle('small')">Small Pic</button>
+
+    </div>
+    <div class="bulbonoff">
+
+       <img src="./Bulb off.jfif" onmouseover="Bulb('bulbOn')" onmouseout="Bulb('bulbOff')" id="bulb" width="250px">
+
+    </div>
+    <div style="background-color:wheat ;" id="paraGraph">
+        <button onclick="pColorCH()">Change Paragraph Color</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel quod molestias suscipit eveniet itaque neque et excepturi quos iure nulla laborum dolore velit praesentium voluptates assumenda corrupti molestiae, animi nam est, soluta nobis provident.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel quod molestias suscipit eveniet itaque neque et excepturi quos iure nulla laborum dolore velit praesentium 
+        voluptates assumenda corrupti molestiae, animi nam est, soluta nobis provident.</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel quod molestias suscipit eveniet itaque neque et excepturi quos iure nulla laborum dolore velit praesentium voluptates assumenda corrupti molestiae, animi nam est, soluta nobis provident.</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel quod molestias suscipit eveniet itaque neque et excepturi quos iure nulla laborum dolore velit praesentium voluptates assumenda corrupti molestiae, animi nam est, soluta nobis provident.</p>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
